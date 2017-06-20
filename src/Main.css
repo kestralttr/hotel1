@@ -1,11 +1,10 @@
 
 body {
-  background: #4FC1E6 url("images/starfish1.png") repeat center; /* Old browsers */
   height:100%;
 }
 
 #home-container {
-
+  background: #4FC1E6 url("images/starfish1.png") repeat center; /* Old browsers */
 }
 
 h1 {

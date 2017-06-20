@@ -1,0 +1,9 @@
+#beaches-container {
+  background-color: black;
+  text-align: center;
+}
+
+#beaches-container img {
+  margin-top: 5px;
+  max-width: 90vw;
+}
