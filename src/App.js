@@ -7,6 +7,7 @@ import './Beaches.css';
 import MainContainer from './components/MainContainer';
 import NavContainer from './components/NavContainer';
 import BeachesContainer from './components/BeachesContainer';
+import FoodDrinkContainer from './components/FoodDrinkContainer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
 
           <Route exact path="/" component={MainContainer}/>
           <Route exact path="/beaches" component={BeachesContainer}/>
+          <Route exact path="/fooddrink" component={FoodDrinkContainer}/>
         </div>
       </Router>
     );
