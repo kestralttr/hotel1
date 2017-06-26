@@ -91,3 +91,38 @@ h1 {
   background-color: #efcc94;
   height:100%;
 }
+
+#main-info {
+  padding: 10px 0 10px 0;
+}
+
+#checkout-beaches-container {
+  /*background-color: green;*/
+  width:100%;
+  height: auto;
+  text-align: center;
+}
+
+#checkout-beaches-title {
+  font-size: 1.3em;
+}
+
+#checkout-beaches-button {
+  text-align: center;
+  margin: 0 auto;
+  height:100px;
+  width:150px;
+  background-color: red;
+  background: url("https://santorinisecrets.com/wp-content/uploads/2016/08/ammoudi2.jpg") no-repeat center;
+  background-size: contain;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transform: scale(1);
+}
+
+#checkout-beaches-button:hover {
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}

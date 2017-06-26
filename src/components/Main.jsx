@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, withRouter} from "react-router-dom";
 
 class Main extends React.Component {
 
@@ -30,6 +31,11 @@ class Main extends React.Component {
             <p>The most enticing prospect of this otherworldly locale is the fact that Santorini offers something for everyone.  Family vacations, honeymoons, retreats, or just some badly-needed personal time; no matter what the occasion, you will find exactly what you desire here on the edge of the Mediterrean.</p><br></br>
             <p>Feel free to explore all that the wonderful island of Santorini has to offer, and don't hesitate to contact us with any questions.</p><br></br>
             <br></br>
+          </div>
+          <div id="checkout-beaches-container">
+            <h3 id="checkout-beaches-title">Check out our beaches!</h3>
+            <br></br>
+            <Link to="/beaches"><div id="checkout-beaches-button"></div></Link>
             <br></br>
             <br></br>
           </div>
@@ -41,4 +47,4 @@ class Main extends React.Component {
 
 }
 
-export default Main;
+export default withRouter(Main);
